@@ -20,4 +20,4 @@ from PIL import Image
 from matplotlib import pyplot as plt
 import torchvision.models as models
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu") 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
